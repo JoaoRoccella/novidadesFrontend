@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS: align-content</title>
+    <link rel="stylesheet" href="assets/css/base.css">
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            background-color: azure;
+            align-content: center; /* Propriedade que centraliza o conteúdo */
+        }
+
+        div {
+            width: 10rem;
+            margin: auto;
+            aspect-ratio: 1;
+            align-content: center; /* Propriedade que centraliza o conteúdo */
+            padding: 2rem;
+            border-radius: 1rem;
+            background: linear-gradient(to bottom right, #c1c7f8, #e3e3f1);
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        span {
+            color: #4b49ac;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div>&lt;div&gt; centralizada com a propriedade <span>"align-content"</span>, <strong>sem "display: flex" ou "display: grid"</strong></div>
+</body>
+</html>
