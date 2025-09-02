@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.cartao {
+    width: 10rem;
+    margin: auto;
+    aspect-ratio: 1;
+    align-content: center;
+    /* Propriedade que centraliza o conteúdo */
+    padding: 2rem;
+    border-radius: 1rem;
+    background: linear-gradient(to bottom right, #c1c7f8, #e3e3f1);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
